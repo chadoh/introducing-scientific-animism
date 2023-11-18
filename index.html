@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>Introducing Scientific Animism</title>
     <style>
+      :root {
+        --accent: rgb(235, 194, 70);
+        --bg: rgb(29, 21, 43);
+      }
       img {
         max-width: 100%;
         max-height: 100%;
       }
       a {
-        color: #66AEE2;
+        color: var(--accent);
       }
       kbd {
         background: white;
-        color: black;
+        color: var(--bg);
         padding: 0 0.2em;
         border-radius: 5px;
         box-shadow: 0 0 4px rgba(0,0,0,0.5) inset;
@@ -32,7 +36,7 @@
       }
       .remark-slide-content em {
         font-style: normal;
-        color: #8dbd0c;
+        color: var(--accent);
       }
       .remark-slide-content > *:first-child {
         margin-top: 0;
@@ -52,11 +56,11 @@
       }
       @media screen {
         body, body.remark-container {
-          background: black;
+          background: var(--bg);
           color: white;
         }
         .remark-slide-content {
-          background-color: black;
+          background-color: var(--bg);
         }
         .remark-slide-scaler {
           -moz-box-shadow: none;
@@ -91,7 +95,7 @@ class: small
 
 ---
 
-!["a watercolor painting of a stump, splashes of green and red, and meandering black dotted lines"](img/jo.jpg)]
+!["a watercolor painting of a stump, splashes of green and red, and meandering black dotted lines"](img/jo.jpg)
 
 ???
 
